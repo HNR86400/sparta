@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask ChatGPT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts 링크 추가 -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f5f5;
+            background-image: url('https://example.com/mirror-image.jpg');
+            /* 거울 이미지 URL */
+            background-size: cover;
+            /* 배경 이미지의 크기를 전체 화면에 맞춤 */
+            background-position: center;
+            /* 배경 이미지를 중앙에 위치 */
+            background-repeat: no-repeat;
+            /* 배경 이미지 반복 안함 */
+        }
+
+        .chat-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            /* 흰색 배경, 약간 투명하게 */
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .question-box {
+            background-color: #e0e0e0;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            cursor: pointer;
+        }
+
+        .question-box:hover {
+            background-color: #d0d0d0;
+        }
+
+        .question-button {
+            background-color: #007bff;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            border: none;
+            cursor: pointer;
+        }
+
+        .question-button:hover {
+            background-color: #0056b3;
+        }
+
+        .small-text {
+            margin-top: 0.5rem;
+            font-size: 0.875rem;
+            color: #555555;
+        }
+    </style>
+</head>
+
+<body class="flex items-center justify-center min-h-screen">
+    <div class="text-center chat-container">
+        <h1 class="text-2xl font-bold mb-4">두들린에서 예쁜 사람을 알려줘!</h1>
+        <div id="mirror" class="question-box flex items-center justify-center">
+            <a href="https://www.linkedin.com/in/%ED%98%9C%EB%A6%BC-%EC%9D%B4-875874226/" target="_blank">
+                <button class="question-button">제가 보기엔 이 사람이요🫡</button>
+            </a>
+        </div>
+        <!-- 작은 글씨 추가 -->
+        <p class="small-text">거울 볼때마다 행복할 듯🥰</p>
+    </div>
+</body>
+
+</html>
